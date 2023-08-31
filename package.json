@@ -1,0 +1,33 @@
+{
+  "name": "auto-db-backup",
+  "version": "1.0.0",
+  "description": "A library to automatically backup databases and upload on s3 buckets",
+  "main": "lib/index.js",
+  "types":"lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare":"npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iam-nav/auto-db-backup.git"
+  },
+  "keywords": [
+    "database",
+    "backup",
+    "sql",
+    "mongodb",
+    "upload",
+    "s3 bucket"
+  ],
+  "author": "Navjot Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iam-nav/auto-db-backup/issues"
+  },
+  "homepage": "https://github.com/iam-nav/auto-db-backup#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "files": ["lib/**/*"]
+}
